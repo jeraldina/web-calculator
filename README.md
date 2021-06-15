@@ -1,6 +1,5 @@
 # web-calculator
 
-# web-calculator
 Web Calculator
 In this two-part exercise you are tasked with creating a Web Calculator. This calculator should accept two numbers from the user and provide them with the answer.
 # Part One
