@@ -7,18 +7,18 @@
 <body>
     <div class="calcBody">
         <h1>Calculator</h1>
-    <input type="number" id="num1" name="num1">
-    <select name="operator" id="operator">
+    <input type="number" id="num1">
+    <select id="operator">
         <option value="add">+</option>
         <option value="sub">-</option>
         <option value="divide">/</option>
         <option value="multiply">*</option>
     </select>
-    <input type="number" id="num2" name="num2">
-    <button type="button"id="calculate" value="calculate" style="margin: auto;" onclick="calculation()">Calculate</button>
+    <input type="number" id="num2">
+    <button type="button" id="calculate" value="calculate" style="margin: auto;" onclick="calculation()">Calculate</button>
     <br><br>
     <h3>Results</h3>
-    <span id="answer"></span>
+    <span id="answer">The answer is </span>
     </div>
 </body>
 </html>

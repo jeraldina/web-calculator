@@ -8,18 +8,21 @@ function calculation() {
     let mathOperators = operator.options[operator.selectedIndex].value
     let answer = document.getElementById('answer')
   
-    switch (answer) {
+    switch (mathOperators) {
       case '+':
-        calculation.innerHTML = num1 + num2;
+        answer.innerHTML = num1 + num2;
         break
-      case '-':
-        calculation.innerHTML = num1 - num2;
+      
+        case '-':
+        answer.innerHTML = num1 - num2;
         break
-      case '/':
-        calculation.innerHTML = num1 / num2;
+     
+        case '/':
+        answer.innerHTML = num1 / num2;
         break
-      case '*':
-        calculation.innerHTML = num1 * num2;
+      
+        case '*':
+        answer.innerHTML = num1 * num2;
         break
     }
   }
