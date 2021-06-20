@@ -1,0 +1,19 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    font-family: "Arial", Verdana, Tahoma, sans-serif, serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 100%;
+}
+.calcBody {
+padding: 50px;
+background-color: #5f5858;
+max-width: 840px;
+margin: 50px;
+}
