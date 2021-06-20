@@ -9,18 +9,6 @@ function calculation() {
       case 'add':
         answer.innerHTML = num1 + num2;
         break
-      
-        case 'sub':
-        answer.innerHTML = num1 - num2;
-        break
-     
-        case 'divide':
-        answer.innerHTML = num1 / num2;
-        break
-      
-        case 'multiply':
-        answer.innerHTML = num1 * num2;
-        break
     }
   }
   
