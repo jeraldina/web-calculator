@@ -2,23 +2,23 @@ function calculation() {
     let operator = document.getElementById('operator')
     let mathOperators = operator.options[operator.selectedIndex].value
     let answer = document.getElementById('answer')
-    let num1 = document.getElementById('num1').value
-    let num2 = document.getElementById('num2').value
-  
+    let num1 = Number(document.getElementById('num1').value)
+    let num2 = Number(document.getElementById('num2').value)
+
     switch (mathOperators) {
-      case '+':
+      case 'add':
         answer.innerHTML = num1 + num2;
         break
       
-        case '-':
+        case 'sub':
         answer.innerHTML = num1 - num2;
         break
      
-        case '/':
+        case 'divide':
         answer.innerHTML = num1 / num2;
         break
       
-        case '*':
+        case 'multiply':
         answer.innerHTML = num1 * num2;
         break
     }
