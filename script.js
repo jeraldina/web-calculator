@@ -5,6 +5,14 @@ function calculation() {
   let num1 = Number(document.getElementById('num1').value)
   let num2 = Number(document.getElementById('num2').value)
 
+  function mathValidation(){
+   if ((num1 == "") || (num2 == "")){
+   alert("Input is not valid. Please enter a number in all fields.");
+   }
+  }
+
+   mathValidation()
+
   switch (mathOperators) {
     case 'add':
       answer.innerHTML = num1 + num2;
@@ -23,4 +31,3 @@ function calculation() {
       break
   }
 }
-
