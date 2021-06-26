@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="calcBody">
+        <h1>Calculator</h1>
+    <input type="number" id="num1">
+    <select id="operator">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="divide">/</option>
+        <option value="multiply">*</option>
+    </select>
+    <input type="number" id="num2">
+    <button type="button" id="calculate" value="calculate" style="margin: auto;" onclick="calculation()">Calculate</button>
+    <br><br>
+    <h3>Results</h3>
+    The answer is 
+    <span id="answer"></span>
+    </div>
+</body>
+
+</html>
