@@ -1,14 +1,18 @@
 # web-calculator
 
-Web Calculator
-In this two-part exercise you are tasked with creating a Web Calculator. This calculator should accept two numbers from the user and provide them with the answer.
-# Part One
-In the first part of the exercise, your calculator will be doing addition only. Your calculator should be made up of two fields for the user to provide you with numbers. It should have some indicator that lets the user know you will be adding them together. It should have a button for the user to request the answer. Finally, it should display that answer on the screen for the user. Your solution should consist of the HTML page that is presented to the user and the JavaScript code that will do the calculation.
-You should create a branch named part-one-answer to which you will commit your files. This branch should be pushed to GitHub. On GitHub you should create a pull request and add your instructor as a reviewer.
-# Extra Credit
-To receive extra credit for this assignment, make it pretty. Use what you have learned about CSS to make your calculator look awesome.
-# Part Two
-In the second part of the exercise, you will update your calculator such that it will be able to perform all four basic math operations (+, -, *, /) on the two numbers provided. You should update your HTML to include a way for the user to choose their operation and update your JavaScript to perform the correct calculation.
-You should create a branch named part-two-answer to which you will commit your files. This branch should be pushed to GitHub. On GitHub you should create a pull request and add your instructor as a reviewer.
+When submitting your assignment, include answers to the following.
 
-web-calculator part 1 is the homework for this week.  Part 2 will be homework due on June 27
+# Identify the component of this assignment that you did the best on, and why.
+The second part is easier because I already made the switch statement in the first part. I think I did the best on the switch statement.
+
+# Describe in plain english what problem this assignment was posing, and what your solution was to it.
+The problem was to create two inputs and calculate the equations for subtraction, division and multiplication 
+
+# What was your approach or process?
+My approach was to create the switch statement in the first part of the Calculator problem, after that, just add the rest of the equations to create the calculator. Then I added validations and lastly changed the colors of the buttons and input fields.
+
+# What were your challenges?
+My biggest challenge was creating the switch statement. 
+
+# What resources did you use?
+I used the console to change out the colors for the inputs and buttons and then I added them to visual studio. I also used the help of TA's to create the switch statement. 
