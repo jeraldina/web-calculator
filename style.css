@@ -13,7 +13,38 @@ body {
 }
 .calcBody {
 padding: 50px;
-background-color: #5f5858;
+background-color: #4d6458;
 max-width: 840px;
 margin: 50px;
+}
+input {
+    background-color: #84a795;;
+    cursor: text;
+    font: 20px Arial;
+    color: #050505;
+    padding: 1px 2px;
+    border-width: 5px;
+    border-style: double;
+    border-color: #afd8c3;
+    border-radius: 2px;
+}
+button {
+    background-color: #84a795;;
+    font: 20px Arial;
+    color: #ffffff;
+    padding: 1px 2px;
+    border-width: 5px;
+    border-style: double;
+    border-color: #afd8c3;
+    border-radius: 2px;
+}
+select {
+    background-color: #84a795;;
+    font: 20px Arial;
+    color: #ffffff;
+    padding: 1px 2px;
+    border-width: 5px;
+    border-style: double;
+    border-color: #afd8c3;
+    border-radius: 2px;
 }
